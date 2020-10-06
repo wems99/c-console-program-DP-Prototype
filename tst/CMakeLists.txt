@@ -1,4 +1,4 @@
-set(BINARY ${CMAKE_PROJECT_NAME}_tst)
+set(BINARY ${Presentation-Progra-2}_tst)
 
 file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.h *.cpp)
 
