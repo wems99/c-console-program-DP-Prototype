@@ -4,9 +4,14 @@
 
 #include "PrototypePant.h"
 
-PrototypePant::PrototypePant(char size, const string &color, const string &material, const string &brand) : size(size), color(color),
-                                                                                           material(material),
-                                                                                           brand(brand) {}
+PrototypePant::PrototypePant(char size, const string &color, const string &material, const string &brand){
+
+    this->size = size;
+    this->color = color;
+    this->material = material;
+    this->brand = brand;
+
+}
 
 char PrototypePant::getSize() const {
     return size;

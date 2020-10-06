@@ -7,6 +7,11 @@
 #include "PrototypePant.h"
 
 class Pant1 : public PrototypePant{
+public:
+
+    Pant1(char size, const string &color, const string &material, const string &brand);
+
+    PrototypePant clone() override;
 
 
 };

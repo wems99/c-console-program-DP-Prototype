@@ -34,6 +34,7 @@ public:
     const string &getBrand() const;
 
     virtual PrototypePant clone() = 0;
+
 };
 
 
