@@ -49,5 +49,15 @@ PrototypePant::~PrototypePant() {
 
 }
 
-PrototypePant::PrototypePant() {}
+void PrototypePant::printAMassage(char prototypeSize_, string prototypeColor_) {
+
+    this->size = prototypeSize_;
+    this->color = prototypeColor_;
+
+    cout<<"Talla del pantalon: " << prototypeSize_ << " de color "<< prototypeColor_ <<endl;
+    cout<<"el material del pantalon es: " << material <<" marca " << brand <<endl;
+
+}
+
+
 

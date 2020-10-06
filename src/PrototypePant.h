@@ -4,8 +4,17 @@
 
 #ifndef PRESENTATION_PROGRA_2_PROTOTYPEPANT_H
 #define PRESENTATION_PROGRA_2_PROTOTYPEPANT_H
+
+enum Type{
+
+    P1 = 0,
+    P2
+
+};
+
 #include <iostream>
 using namespace std;
+
 class PrototypePant {
 private:
     char size;
@@ -36,6 +45,8 @@ public:
     const string &getBrand() const;
 
     virtual PrototypePant *clone() = 0;
+
+    virtual void printAMassage(char, string);
 
 };
 
