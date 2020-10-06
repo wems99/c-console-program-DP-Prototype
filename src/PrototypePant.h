@@ -13,6 +13,9 @@ private:
     string material;
     string brand;
 public:
+
+    PrototypePant();
+
     PrototypePant(char size, const string &color, const string &material, const string &brand);
 
     virtual ~PrototypePant();

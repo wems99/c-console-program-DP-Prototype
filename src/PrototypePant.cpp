@@ -49,3 +49,5 @@ PrototypePant::~PrototypePant() {
 
 }
 
+PrototypePant::PrototypePant() {}
+

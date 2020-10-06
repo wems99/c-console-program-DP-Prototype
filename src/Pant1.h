@@ -9,10 +9,9 @@
 class Pant1 : public PrototypePant{
 public:
 
-    Pant1(char size, const string &color, const string &material, const string &brand);
+    Pant1(char size, const string &color);
 
     PrototypePant clone() override;
-
 
 };
 
