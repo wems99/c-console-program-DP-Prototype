@@ -14,7 +14,6 @@ private:
     string brand;
 public:
 
-    PrototypePant();
 
     PrototypePant(char size, const string &color, const string &material, const string &brand);
 
@@ -36,7 +35,7 @@ public:
 
     const string &getBrand() const;
 
-    virtual PrototypePant clone() = 0;
+    virtual PrototypePant *clone() = 0;
 
 };
 

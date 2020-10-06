@@ -4,19 +4,12 @@
 
 #include "Pant1.h"
 
-Pant1::Pant1(char size, const string &color) {
-    this->setSize(size);
-    this->setColor(color);
-    this->setMaterial("Cuero sintetico");
-    this->setBrand("Gucci");
+Pant1::Pant1(char size, const string &color, const string &material, const string &brand) : PrototypePant(size, color,
+                                                                                                          material,
+                                                                                                          brand), sizePrototype1(size), colorPrototype1(color) {}
+
+PrototypePant *Pant1::clone() {
+    return new Pant1(*this);
 }
 
-PrototypePant Pant1::clone() {
-    return new Pant1(this->size,this->color);
-}
-
-/*public Camiseta clone(){
-    return new CamisetaMCorta(this.talla, this.color, this.estampado);
-}
-*(
 
