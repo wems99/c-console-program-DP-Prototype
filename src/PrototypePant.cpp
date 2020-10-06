@@ -43,3 +43,4 @@ void PrototypePant::setBrand(const string &brand) {
 PrototypePant::~PrototypePant() {
 
 }
+

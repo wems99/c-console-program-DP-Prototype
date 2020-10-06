@@ -4,8 +4,8 @@
 
 #ifndef PRESENTATION_PROGRA_2_PROTOTYPEPANT_H
 #define PRESENTATION_PROGRA_2_PROTOTYPEPANT_H
-
-
+#include <iostream>
+using namespace std;
 class PrototypePant {
 private:
     char size;
@@ -28,6 +28,8 @@ public:
     const string &getMaterial() const;
 
     void setMaterial(const string &material);
+
+    void setBrand(const string &brand);
 
     const string &getBrand() const;
 
