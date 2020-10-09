@@ -46,7 +46,7 @@ public:
 
     virtual PrototypePant *clone() = 0;
 
-    virtual void printAMassage(char, string);
+    virtual string printAMassage(char, string);
 
 };
 

@@ -16,7 +16,7 @@ public:
         cout<<" **escogiendo el primer tipo de pantalon** "<<endl;
 
         PrototypePant *prototypePant = prototype_Factory.CreatePrototype(Type::P1);
-        prototypePant->printAMassage('S', "rojo");
+        cout<<prototypePant->printAMassage('S', "rojo");
         //liberar memoria
         delete prototypePant;
 
