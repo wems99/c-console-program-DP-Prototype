@@ -4,7 +4,7 @@
 
 #ifndef PRESENTATION_PROGRA_2_PROTOTYPEPANT_H
 #define PRESENTATION_PROGRA_2_PROTOTYPEPANT_H
-
+#include <sstream>
 enum Type{
 
     P1 = 0,
